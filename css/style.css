@@ -1,0 +1,143 @@
+
+
+@font-face {
+	font-family: 'Pt-serif-regular';
+	src:url(http://icdn.lenta.ru/assets/pt_serif-regular-92b911b83da092e53f30f359082a6185.eot);
+	src:url(http://icdn.lenta.ru/assets/pt_serif-regular.eot?#iefix) format('eot'),url(http://icdn.lenta.ru/assets/pt_serif-regular-0bf8da96cd518b3c11480cf8b370fc45.woff) format('woff'), url(http://icdn.lenta.ru/assets/pt_serif-regular-624ae74aa79350023f87568ade5fc5f4.svg) format('svg');
+	font-weight: normal;
+	font-style: normal }
+
+@font-face {
+	font-family: 'Pt-serif-bold';
+	src:url(http://icdn.lenta.ru/assets/pt_serif-bold-36549a06dbc97b03fe6234330dd4aed6.eot);
+	src:url(http://icdn.lenta.ru/assets/pt_serif-bold.eot?#iefix) format('eot'),url(http://icdn.lenta.ru/assets/pt_serif-bold-8dce5fafdcc0b0757508def425fc1b62.woff) format('woff'), url(http://icdn.lenta.ru/assets/pt_serif-bold-fbc989fa8b1768edda7e74715826b551.svg) format('svg');
+	font-weight: bold;
+	font-style: normal }
+
+@font-face {
+	font-family: 'Pt-sans-regular';
+	src:url(http://icdn.lenta.ru/assets/pt_sans-regular-a5a4c3cff72902db2ccd989000e564b4.eot);
+	src:url(http://icdn.lenta.ru/assets/pt_sans-regular.eot?#iefix) format('eot'),url(http://icdn.lenta.ru/assets/pt_sans-regular-b31bb339cfd57d7d7dc38cb4a3162d29.woff) format('woff'), url(http://icdn.lenta.ru/assets/pt_sans-regular-725e486d19d064e3ae28bd1b1e9a6bcd.svg) format('svg');
+	font-weight: normal;
+	font-style: normal }
+
+@font-face {
+	font-family: 'Pt-sans-bold';
+	src:url(http://icdn.lenta.ru/assets/pt_sans-bold-7603eba6528a3954cd0df81448a94ce4.eot);
+	src:url(http://icdn.lenta.ru/assets/pt_sans-bold.eot?#iefix) format('eot'),url(http://icdn.lenta.ru/assets/pt_sans-bold-f463e791b0d44c19e79024f7af7eb172.woff) format('woff'), url(http://icdn.lenta.ru/assets/pt_sans-bold-e275a0dfdd8ba02a987b4c7afdf50a65.svg) format('svg');
+	font-weight: bold;
+	font-style: normal }
+
+/*@font-face {*/
+/*font-family: 'Pt-sans-bold';*/
+/*src: url('../font/pt_sans-bold-f463e791b0d44c19e79024f7af7eb172.woff') format('woff');}*/
+/*@font-face {*/
+/*font-family: 'Pt-sans-regular';*/
+/*src: url('../font/pt_sans-regular-b31bb339cfd57d7d7dc38cb4a3162d29.woff') format('woff');}*/
+/*@font-face {*/
+/*font-family: 'Pt-serif-bold';*/
+/*src: url('../font/pt_serif-bold-8dce5fafdcc0b0757508def425fc1b62.woff') format('woff');}*/
+/*@font-face {*/
+/*font-family: 'Pt-serif-regular';*/
+/*src: url('../font/pt_serif-regular-0bf8da96cd518b3c11480cf8b370fc45.woff') format('woff');}*/
+body {
+	background: #373737;
+	width: 100%;
+	padding: 40px 0; }
+
+#container {
+	background: #fff;
+	-webkit-box-shadow: 0 0 0 1px #000, -2px 2px 8px #000;
+	        box-shadow: 0 0 0 1px #000, -2px 2px 8px #000;
+	margin: 0 auto;
+	max-width: 720px;
+	min-width: 520px;
+	/*width: 652px;*/ }
+
+#box-margin-left {
+	padding: 10px 15px 23px 15px; /*overflow: hidden;*/
+	margin-left: -18px; }
+
+.block {
+	float: left;
+	width: 50%;
+	margin: 17px 0 15px 0; }
+
+.wrap { margin-left: 18px; }
+
+.rubric {
+	color: #c33;
+	font-family: 'Pt-serif-bold',serif;
+	font-size: 12px;
+	font-weight: bold;
+	float: left;
+	margin: 0 2px 0 1px; }
+
+.dash, .data {
+    color: #959595;
+    font-size: 12px;
+    font-weight: normal;
+    font-family: 'Pt-sans-regular',sans-serif;
+    float: left;
+    margin: 0 0 0 1px;}
+
+.box-art-img {
+	background: #ededed;
+	display: block;
+	margin: 7px 0 0 0;
+	padding: 1px; }
+
+.art-img {
+	display: block;
+	width: 100%; }
+
+.box-art-title {
+	color: #151515;
+	font-size: 20px;
+	line-height: 20px;
+	margin: 12px 0 5px 1px;
+	width: 100%; }
+
+.art-title {
+    color: #151515;
+    font-family: 'Pt-sans-bold',sans-serif;
+    font-size: 20px;
+    line-height: 20px;
+    text-decoration: none;
+    width: 100%; }
+
+.box-art-adt {
+	display: block;
+	margin: 3px 0 0 1px;
+	width: 100%; }
+
+.art-adt {
+    color: #444;
+    display: block;
+    font-family: 'Pt-serif-regular',serif;
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    text-decoration: none;
+    width: 100%; }
+
+.box-art-title a:hover, .box-art-adt a:hover, .art-title a:hover, .art-adt a:hover { color: #f00; }
+
+.row-line { width: 100%; }
+
+.block-line {
+	float: left;
+	width: 50%; }
+
+.block-line2 {
+	float: left;
+	width: 50%;
+	margin-top: 2px; }
+
+.line {
+	border-bottom: 1px solid #d5d5d5;
+	margin-left: 19px;
+	margin-right: 1px; }
+
+.clear { clear: both; }
+
