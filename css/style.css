@@ -51,12 +51,14 @@ body {
 	*display: inline;
 	vertical-align: top; }
 
-	.article-box:nth-child(-n+2) .article { border-top: 0; }
-
 .article {
 	border-top: 1px solid #d5d5d5;
 	margin-left: 18px;
 	padding: 17px 0 15px 0; }
+
+.border-none {
+    border-top: 0;
+}
 
 .art-info { height: 15px; }
 
